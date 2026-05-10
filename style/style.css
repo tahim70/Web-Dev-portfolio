@@ -12,21 +12,6 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
-
-/* shared style */
-.text-primary{
-  color: #FD6E0A;  
-}
-
-.nav-title{
-    font-weight: 800;
-    font-size: 45px;
-}
-
-.dark-2{
-   color: #474747;
-}
-
 nav ul{
     display: flex;
    align-items: center;
@@ -42,6 +27,51 @@ nav li a{
     font-size: 20px;
    
 }
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    margin-left: 150px;
+}
+
+
+/* shared style */
+.text-primary{
+  color: #FD6E0A;  
+}
+
+
+.dark-2{
+   color: #474747;
+}
+
+/* Background style */
+.header{
+    background-image: url(../images/developer.png) , url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}
+
+/* Banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content {
+    max-width: 585px;
+    margin-left: 150px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600px;
+}
+.banner-title{
+    font-size: 85px;
+   font-weight: 800px;
+}
+.banner-pic{
+    width: 584px;
+    height: 676px;
+}
 
 .btn{
     
@@ -52,4 +82,6 @@ nav li a{
     border-radius: 5px;
     border: none ;
 }
+
+
 
