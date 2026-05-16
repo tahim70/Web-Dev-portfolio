@@ -38,7 +38,9 @@ nav li a{
 .text-primary{
   color: #FD6E0A;  
 }
-
+.text-center{
+    text-align: center;
+}
 .dark-2{
    color: #474747;
 }
@@ -109,7 +111,7 @@ main{
 /* main items */
 .items{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .item-title{
     font-size: 20px;
@@ -121,5 +123,7 @@ main{
     color: #474747;
 }
 
-
-
+/* skills style */
+.skill-container{
+    display: flex;
+}
